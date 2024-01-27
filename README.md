@@ -1,14 +1,14 @@
-# Welcome to [Your Name]'s GitHub Profile! 👋
+# Welcome to Vishnu Prakash's GitHub Profile! 👋
 
-Hi there! I'm [Your Name], a passionate [Your Profession or Field] based in [Your Location]. Welcome to my GitHub profile, where I share my projects, contributions, and experiments.
+Hi there! I'm Vishnu Prakash, a passionate Data Scientist based in Kerala, India. Welcome to my GitHub profile, where I share my projects, contributions, and experiments.
 
 ## 🚀 About Me
 
-- 🌐 [Personal Website](https://www.yourwebsite.com)
-- 👨‍💻 I'm currently working on [Current Project/Interest]
+- 🌐 [My Personal Website](https://www.vishnuprakash.online)
+- 👨‍💻 I'm currently working on Transformers and Generative AI
 - 🌱 I'm always learning and exploring new technologies
-- 💬 Ask me about [Your Expertise]
-- 📫 How to reach me: [Your Email]
+- 💬 Ask me about Artifical Intelligence and Open Source Projects
+- 📫 How to reach me: [vishnucheppanam@gmail.com]
 
 ## 🔧 Technologies & Tools
 
