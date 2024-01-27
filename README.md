@@ -8,7 +8,7 @@ Hi there! I'm Vishnu Prakash, a passionate Data Scientist based in Kerala, India
 - 👨‍💻 I'm currently working on Transformers and Generative AI
 - 🌱 I'm always learning and exploring new technologies
 - 💬 Ask me about Artifical Intelligence and Open Source Projects
-- 📫 How to reach me: [vishnucheppanam@gmail.com]
+- 📫 How to reach me: vishnucheppanam@gmail.com
 
 ## 🔧 Technologies & Tools
 
@@ -22,19 +22,19 @@ I work with a variety of technologies and tools, including but not limited to:
 
 Here are some of the projects I'm currently working on:
 
-1. [Project 1](https://github.com/yourusername/project1): Brief description of the project.
-2. [Project 2](https://github.com/yourusername/project2): Brief description of the project.
-3. [Project 3](https://github.com/yourusername/project3): Brief description of the project.
+1. [TradePilot](https://github.com/vishnuprksh/tradepilot): Brief description of the project.
+2. [GemInsights](https://github.com/vishnuprksh/geminsights): Brief description of the project.
+3. [PromptIDE](https://github.com/vishnuprksh/promptide): Brief description of the project.
 
 ## 📈 GitHub Stats
 
-[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide=contribs,prs&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=vishnuprksh&show_icons=true&hide=contribs,prs&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 🤝 Connect with Me
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourlinkedinprofile/)
-- Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
-- Blog: [Your Blog](https://www.yourblog.com)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/vishnu-prksh/)
+- Twitter: [@YourTwitterHandle](https://twitter.com/vishnuprksh)
+- Blog: [Your Blog](https://www.vishnuprakash.online)
 
 Feel free to explore my repositories and reach out if you have any questions or just want to connect! 😊
 
