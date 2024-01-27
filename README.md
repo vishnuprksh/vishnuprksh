@@ -14,9 +14,9 @@ Hi there! I'm Vishnu Prakash, a passionate Data Scientist based in Kerala, India
 
 I work with a variety of technologies and tools, including but not limited to:
 
-- 💻 [Technology 1]
-- 🚀 [Technology 2]
-- 🌐 [Technology 3]
+- 💻 Machine Learning
+- 🚀 Data Science
+- 🌐 Data Base Management
 
 ## 🌱 Current Projects
 
@@ -32,9 +32,8 @@ Here are some of the projects I'm currently working on:
 
 ## 🤝 Connect with Me
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/vishnu-prksh/)
-- Twitter: [@YourTwitterHandle](https://twitter.com/vishnuprksh)
-- Blog: [Your Blog](https://www.vishnuprakash.online)
+- LinkedIn: [linkedin/vishnu-prksh](https://www.linkedin.com/in/vishnu-prksh/)
+- Twitter: [twitter/vishnuprksh](https://twitter.com/vishnuprksh)
 
 Feel free to explore my repositories and reach out if you have any questions or just want to connect! 😊
 
