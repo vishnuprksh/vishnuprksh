@@ -2,7 +2,7 @@
 
 Hi there! I'm Vishnu Prakash, a passionate Data Scientist based in Kerala, India. Welcome to my GitHub profile, where I share my projects, contributions, and experiments.
 
-## 🚀 About Me
+## About Me
 
 - 🌐 [My Personal Website](https://www.vishnuprakash.online)
 
@@ -14,7 +14,7 @@ Hi there! I'm Vishnu Prakash, a passionate Data Scientist based in Kerala, India
 
 - 📫 How to reach me: vishnucheppanam@gmail.com
 
-## 🌱 Current Projects
+## Current Projects
 
 Here are some of the projects I'm currently working on:
 
@@ -24,7 +24,7 @@ Here are some of the projects I'm currently working on:
 
 3. [PromptIDE](https://github.com/vishnuprksh/promptide): Brief description of the project.
 
-## 🤝 Connect with Me
+## Connect with Me
 
 - LinkedIn: [linkedin/vishnu-prksh](https://www.linkedin.com/in/vishnu-prksh/)
 
