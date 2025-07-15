@@ -285,8 +285,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(180deg, rgb(9, 0, 0), rgb(0, 0, 0));
-  /* background: url("https://github.com/joyaljosephnote/photofolder/blob/main/wallpapper.jpg?raw=true") top right no-repeat; */
+  background-color: #ffffff;
+  background: url("../img/background_image.png") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -299,7 +299,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.117);
+  background: transparent;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -456,6 +456,79 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Enhanced About Section
+--------------------------------------------------------------*/
+.about .experience-item {
+  transition: all 0.3s ease;
+  border-left: 4px solid #1d9100;
+}
+
+.about .experience-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(29, 145, 0, 0.1);
+}
+
+.about .education-item {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.about .education-item:hover {
+  border-left-color: #1d9100;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about .what-i-do-item {
+  transition: all 0.3s ease;
+}
+
+.about .what-i-do-item:hover {
+  transform: translateY(-5px);
+}
+
+.about .what-i-do-item .icon {
+  transition: all 0.3s ease;
+}
+
+.about .what-i-do-item:hover .icon {
+  transform: scale(1.1);
+}
+
+.about .approach-item {
+  transition: all 0.3s ease;
+  border-left: 4px solid #1d9100;
+}
+
+.about .approach-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(29, 145, 0, 0.1);
+}
+
+.about .cta-section {
+  background: linear-gradient(135deg, #1d9100 0%, #1ded06 100%) !important;
+}
+
+.about .badge {
+  font-size: 0.75rem;
+  padding: 0.375rem 0.75rem;
+}
+
+.about .bg-outline-success {
+  background-color: transparent !important;
+  border: 1px solid #1d9100 !important;
+  color: #1d9100 !important;
+}
+
+.about .list-unstyled li {
+  margin-bottom: 0.5rem;
+}
+
+.about .rounded {
+  border-radius: 15px !important;
 }
 
 /*--------------------------------------------------------------
@@ -1112,4 +1185,168 @@ section {
 }
  .const span i{
   color: green;
+}
+
+/*--------------------------------------------------------------
+# Blog Section
+--------------------------------------------------------------*/
+.blog .blog-entry {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .blog-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.blog .blog-entry-img {
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1d9100, #1ded06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blog .blog-entry-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.blog .blog-entry:hover .blog-entry-img img {
+  transform: scale(1.1);
+}
+
+.blog .blog-entry-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .blog-meta {
+  margin-bottom: 15px;
+}
+
+.blog .blog-meta span {
+  font-size: 13px;
+  color: #999;
+  margin-right: 15px;
+}
+
+.blog .blog-meta .date {
+  color: #1d9100;
+}
+
+.blog .blog-meta .category {
+  background: #f0f9ff;
+  color: #1d9100;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.blog .blog-entry h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.blog .blog-entry h3 a {
+  color: #333;
+  transition: 0.3s;
+}
+
+.blog .blog-entry h3 a:hover {
+  color: #1d9100;
+}
+
+.blog .blog-entry p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.blog .read-more {
+  margin-top: auto;
+}
+
+.blog .read-more a {
+  color: #1d9100;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.blog .read-more a:hover {
+  color: #1ded06;
+  text-decoration: none;
+}
+
+.blog .read-more a i {
+  margin-left: 5px;
+  transition: all 0.3s;
+}
+
+.blog .read-more a:hover i {
+  transform: translateX(3px);
+}
+
+.btn-blog-more {
+  background: #1d9100;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.btn-blog-more:hover {
+  background: #1ded06;
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.btn-blog-more i {
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.btn-blog-more:hover i {
+  transform: translateX(3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blog .blog-entry {
+    margin-bottom: 30px;
+  }
+  
+  .blog .blog-entry h3 {
+    font-size: 16px;
+  }
+  
+  .blog .blog-entry-content {
+    padding: 15px;
+  }
 }
