@@ -23,6 +23,28 @@
 
 ---
 
+## 🌟 About Me
+
+<div align="center">
+<img src="https://img.icons8.com/fluency/96/000000/idea.png" width="80"/>
+</div>
+
+I'm a passionate **Data Scientist** and **ML Engineer** from Kerala, India 🇮🇳, driven by curiosity and a relentless pursuit of innovation. My mission is to turn data into meaningful impact and help shape a better future through technology.
+
+### ✨ Core Ethics
+- **Invent, don't just predict**: I believe in creating the future, not waiting for it.
+- **Integrity**: Data is powerful, but honesty and transparency matter more.
+- **Continuous Learning**: Every challenge is an opportunity to grow.
+- **Collaboration**: Great ideas are born from diverse minds working together.
+- **Impact**: Technology should serve humanity and make lives better.
+
+### 🚀 What I Do
+- **Data Science & ML**: Building intelligent solutions for real-world problems
+- **Full Stack Development**: Creating seamless, scalable applications
+- **AI Research**: Exploring new frontiers in artificial intelligence
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -59,6 +81,44 @@
 
 🔧 **Tech Stack:** HTML5, CSS3, JavaScript, Web Audio API
 
+---
+
+### 🎮 [RocketBhai Game](https://play.google.com/store/apps/details?id=com.SyntaxError.RocketBhai)
+**Mobile Game Development**
+> An engaging mobile game available on Google Play Store, showcasing game development skills and user experience design.
+
+🔧 **Tech Stack:** Game Development, Mobile App Development
+
+---
+
+### 🎤 [Lyricious](https://lyricsious.com)
+**Live Music Platform**
+> A web application for music enthusiasts featuring lyrics, artist information, and interactive music experiences.
+
+🔧 **Tech Stack:** Web Development, API Integration, Full Stack
+
+---
+
+### 📺 [ConnectVPK](https://github.com/vishnuprksh/YouTubeClone)
+**Video Sharing Platform**
+> A YouTube-inspired video sharing platform with modern design and essential video streaming features.
+
+🔧 **Tech Stack:** HTML5, CSS3, JavaScript, Video APIs
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+![Vishnu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vishnuprksh&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vishnuprksh&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vishnuprksh&theme=radical&hide_border=true&background=0D1117)
+
 </div>
 
 ---
@@ -84,6 +144,20 @@
 
 ---
 
+## 💼 What I Offer
+
+<div align="center">
+
+<img src="https://img.icons8.com/color/96/000000/data-configuration.png" width="60"/> <img src="https://img.icons8.com/color/96/000000/machine-learning.png" width="60"/> <img src="https://img.icons8.com/color/96/000000/web.png" width="60"/>
+
+<br>
+
+<b>Data Science & ML</b> | <b>Full Stack Development</b> | <b>AI Research</b>
+
+</div>
+
+---
+
 ## 🤝 Let's Connect!
 
 <div align="center">
@@ -94,6 +168,15 @@
 📱 **Phone**: +91 80780 43398  
 
 </div>
+
+---
+
+## 🎯 Current Focus
+
+- 🔬 **Research**: Advanced ML algorithms for financial markets
+- 🚀 **Development**: Scalable data science applications
+- 📚 **Learning**: MLOps, Cloud Computing, and AI Engineering
+- 🤝 **Collaboration**: Open to exciting data science projects
 
 ---
 
