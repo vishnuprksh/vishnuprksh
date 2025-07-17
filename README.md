@@ -2,7 +2,7 @@
   
 # Hello World! 👋 I'm Vishnu Prakash
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Data+Scientist;ML+Engineer;Full+Stack+Developer;AI+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Data+Scientist;ML+Engineer" alt="Typing SVG" />
 
 [![Website](https://img.shields.io/website?url=https%3A//www.vishnuprakash.online&style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.vishnuprakash.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishnu-prksh/)
