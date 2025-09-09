@@ -33,36 +33,6 @@
 
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-### 📈 [TradePilot](https://github.com/vishnuprksh/tradepilot_modular)
-**Advanced Trading Analysis Platform**
-> A comprehensive trading analysis tool that combines financial data processing with machine learning for market prediction and portfolio optimization.
-
-🔧 **Tech Stack:** Python, Machine Learning, Data Analysis, Financial APIs
-
----
-
-### 🎬 [Crunchyroll Clone](https://github.com/vishnuprksh/CrunchyrollClone)
-**Anime Streaming Platform UI**
-> A pixel-perfect recreation of the popular anime streaming platform with responsive design and modern web technologies.
-
-🔧 **Tech Stack:** HTML5, CSS3, JavaScript, Bootstrap, Responsive Design
-
----
-
-### 🎵 [Spotify Clone](https://github.com/vishnuprksh/SpotifyClone)
-**Music Streaming Interface**
-> A feature-rich music streaming platform interface with playlist management and modern UI/UX design principles.
-
-🔧 **Tech Stack:** HTML5, CSS3, JavaScript, Web Audio API
-
-</div>
-
----
-
 ## 🎓 Education & Professional Journey
 
 ### 🎓 Academic Background
