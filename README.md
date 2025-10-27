@@ -23,47 +23,17 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,r,js,html,css,bootstrap,nodejs,git,mongodb,mysql,postgres,tensorflow,react" />
-
-</div>
-
----
-
 ## 🎓 Education & Professional Journey
 
-### 🎓 Academic Background
-- **BTech in Engineering** - CUSAT, Cochin (2015-2019)
-- **Data Science & Machine Learning Specialization** - Brototype (2023-Present)
+My journey began at **CUSAT, Cochin**, where I pursued my **BTech in Engineering** from 2015 to 2019. During those formative years, I discovered my passion for turning complex problems into elegant solutions through code. But the real transformation started in **2021**, when I embarked on a mission to master the art of **data science**.
 
-### 💼 Professional Experience
-- **Data Scientist** - Freelance & Projects (2021-Present)
-  - Machine learning model development and deployment
-  - Data analysis and statistical modeling
-  - Full-stack application development
+Fast forward to **2023**, I joined **Brototype's Data Science & Machine Learning Specialization**, where I dove deep into the world of **artificial intelligence** and **statistical modeling**. This wasn't just learning—it was a complete immersion into the cutting edge of technology.
 
-### 🏆 Key Achievements
-- Built and deployed multiple machine learning models in production
-- Developed comprehensive data science projects and applications
-- 🎮 Published mobile game on Google Play Store
-- 🌐 Created various web applications with data-driven features
-- 📈 Specialized in financial data analysis and trading algorithms
+As a **freelance Data Scientist**, I've been living at the intersection of **data**, **code**, and **business impact**. I've built and deployed **machine learning models** that run in production environments, solving real-world problems. My work spans from **full-stack application development** to sophisticated **data analysis**, where every insight tells a story and every model makes a difference.
 
----
+But here's what makes it exciting: I've ventured beyond traditional data science. I **published a mobile game** on the **Google Play Store**, bringing creativity and code together. I've crafted **web applications** powered by data-driven features that users interact with daily. And I've specialized in **financial data analysis** and **trading algorithms**, where milliseconds matter and predictions can change outcomes.
 
-## 🤝 Let's Connect!
-
-<div align="center">
-
-🌐 **Portfolio**: [vishnuprakash.online](https://www.vishnuprakash.online)  
-💼 **LinkedIn**: [linkedin.com/in/vishnu-prksh](https://www.linkedin.com/in/vishnu-prksh/)  
-📧 **Email**: vishnucheppanam@gmail.com  
-📱 **Phone**: +91 80780 43398  
-
-</div>
+Today, I'm not just analyzing data—I'm building the future, one model at a time.
 
 ---
 
