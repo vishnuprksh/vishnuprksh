@@ -1,6 +1,6 @@
 <div align="center">
   
-# Hello World! 👋 I'm Vishnu Prakash
+# Hello World! I'm Vishnu Prakash
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Data+Scientist;ML+Engineer" alt="Typing SVG" />
 
