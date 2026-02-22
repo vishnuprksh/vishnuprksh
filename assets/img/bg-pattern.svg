@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070a" />
+      <stop offset="50%" stop-color="#101218" />
+      <stop offset="100%" stop-color="#1a1c24" />
+    </linearGradient>
+    <pattern id="hex-pattern" x="0" y="0" width="40" height="69.282" patternUnits="userSpaceOnUse">
+      <path d="M40 17.32l-20 11.547L0 17.32V-5.774l20-11.547L40-5.774V17.32zm0 46.188l-20 11.548-20-11.548V40.414L20 28.867l20 11.547v23.094z"
+            fill="none" stroke="#2a2d34" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#3a3d46" opacity="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  <rect width="100%" height="100%" fill="url(#dot-grid)" />
+  <rect width="100%" height="100%" fill="url(#hex-pattern)" />
+</svg>

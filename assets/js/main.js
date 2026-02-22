@@ -322,7 +322,7 @@ function validateName(){
 
       return false;
   }else{
-      nameError.innerHTML='<i class="fa-solid fa-check"></i>';
+      nameError.innerHTML='<i class="bi bi-check-circle-fill"></i>';
       return true;
   
   }
@@ -343,7 +343,7 @@ function validateEmail(){
   emailError.innerHTML="invalid email";
   return false;
 }else{
-  emailError.innerHTML='<i class="fa-solid fa-check"></i>';
+  emailError.innerHTML='<i class="bi bi-check-circle-fill"></i>';
   return true;
 }
 }
@@ -359,7 +359,7 @@ function validateSubject(){
       subjError.innerHTML = left + 'more characters required';
   return false;
   }else{
-      subjError.innerHTML ='<i class="fa-solid fa-check"></i>';
+      subjError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
       return true;
   }
   
@@ -377,7 +377,7 @@ function validateMessage(){
       msgError.innerHTML = left + 'more characters required';
   return false;
   }else{
-      msgError.innerHTML ='<i class="fa-solid fa-check"></i>';
+      msgError.innerHTML ='<i class="bi bi-check-circle-fill"></i>';
       return true;
   }
   
@@ -385,7 +385,7 @@ function validateMessage(){
 }
 function validateForm()
 {
-if(!validateName() || !validatePhone() || !validateEmail()||!validateMessage()){
+if(!validateName() || !validateEmail()||!validateMessage()){
 
     submitError.innerHTML="Please fix these error to sumbit ";
     return false;    

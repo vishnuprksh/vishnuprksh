@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <!-- Node Gradients -->
+    <radialGradient id="core-node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a84ff" />
+      <stop offset="70%" stop-color="#005ecb" />
+      <stop offset="100%" stop-color="#002d62" />
+    </radialGradient>
+    
+    <radialGradient id="data-node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#64d2ff" />
+      <stop offset="100%" stop-color="#0071a4" />
+    </radialGradient>
+
+    <radialGradient id="ml-node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#30d158" />
+      <stop offset="100%" stop-color="#1e7a33" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="glow-strong" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="glow-soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+  </defs>
+
+  <!-- Complex Neural Network Connections -->
+  <g stroke-width="1.5" opacity="0.4">
+    <g stroke="#64d2ff">
+      <line x1="200" y1="200" x2="400" y2="150"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="200" x2="400" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.5s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="200" x2="400" y2="450"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="400" x2="400" y2="150"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.2s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="400" x2="400" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.8s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="400" x2="400" y2="450"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.2s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="400" x2="400" y2="600"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.8s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="600" x2="400" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.1s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="600" x2="400" y2="450"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.5s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="600" x2="400" y2="600"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" repeatCount="indefinite"/></line>
+    </g>
+    <g stroke="#0a84ff">
+      <line x1="400" y1="150" x2="600" y2="400"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/></line>
+      <line x1="400" y1="300" x2="600" y2="400"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/></line>
+      <line x1="400" y1="450" x2="600" y2="400"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/></line>
+      <line x1="400" y1="600" x2="600" y2="400"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/></line>
+    </g>
+    <g stroke="#30d158">
+      <line x1="600" y1="400" x2="800" y2="250"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.8s" repeatCount="indefinite"/></line>
+      <line x1="600" y1="400" x2="800" y2="400"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.1s" repeatCount="indefinite"/></line>
+      <line x1="600" y1="400" x2="800" y2="550"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.2s" repeatCount="indefinite"/></line>
+    </g>
+    <g stroke="#0a84ff">
+      <line x1="800" y1="250" x2="1000" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.5s" repeatCount="indefinite"/></line>
+      <line x1="800" y1="250" x2="1000" y2="500"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.1s" repeatCount="indefinite"/></line>
+      <line x1="800" y1="400" x2="1000" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.9s" repeatCount="indefinite"/></line>
+      <line x1="800" y1="400" x2="1000" y2="500"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.3s" repeatCount="indefinite"/></line>
+      <line x1="800" y1="550" x2="1000" y2="300"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.5s" repeatCount="indefinite"/></line>
+      <line x1="800" y1="550" x2="1000" y2="500"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.7s" repeatCount="indefinite"/></line>
+    </g>
+  </g>
+
+  <!-- Data Flow Particles -->
+  <g fill="#ffffff" filter="url(#glow-soft)">
+    <circle r="3"><animateMotion path="M200,200 L400,300" dur="2s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M200,400 L400,150" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M200,600 L400,450" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M400,150 L600,400" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M400,300 L600,400" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M400,450 L600,400" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M400,600 L600,400" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M600,400 L800,250" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M600,400 L800,400" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle r="4"><animateMotion path="M600,400 L800,550" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M800,250 L1000,300" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M800,400 L1000,500" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M800,550 L1000,300" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Nodes -->
+  <g filter="url(#glow-soft)">
+    <circle cx="200" cy="200" r="15" fill="url(#data-node)"><animate attributeName="r" values="13;17;13" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="400" r="15" fill="url(#data-node)"><animate attributeName="r" values="13;17;13" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="600" r="15" fill="url(#data-node)"><animate attributeName="r" values="13;17;13" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="150" r="20" fill="url(#ml-node)"><animate attributeName="r" values="18;22;18" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="300" r="20" fill="url(#ml-node)"><animate attributeName="r" values="18;22;18" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="450" r="20" fill="url(#ml-node)"><animate attributeName="r" values="18;22;18" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="600" r="20" fill="url(#ml-node)"><animate attributeName="r" values="18;22;18" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g filter="url(#glow-strong)">
+    <circle cx="600" cy="400" r="60" fill="none" stroke="#0a84ff" stroke-width="2" stroke-dasharray="10 5">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 400" to="360 600 400" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="400" r="50" fill="none" stroke="#64d2ff" stroke-width="3" stroke-dasharray="20 10 5 10">
+      <animateTransform attributeName="transform" type="rotate" from="360 600 400" to="0 600 400" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="400" r="40" fill="url(#core-node)">
+      <animate attributeName="r" values="35;45;35" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="400" r="20" fill="#ffffff" opacity="0.4">
+      <animate attributeName="r" values="10;30;10" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g filter="url(#glow-soft)">
+    <circle cx="800" cy="250" r="22" fill="url(#ml-node)"><animate attributeName="r" values="20;25;20" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="400" r="22" fill="url(#ml-node)"><animate attributeName="r" values="20;25;20" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="550" r="22" fill="url(#ml-node)"><animate attributeName="r" values="20;25;20" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="300" r="25" fill="url(#core-node)"><animate attributeName="r" values="22;28;22" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="500" r="25" fill="url(#core-node)"><animate attributeName="r" values="22;28;22" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Floating Abstract Data Elements -->
+  <g opacity="0.3">
+    <path d="M 100 700 Q 150 650 200 700 T 300 700 T 400 700 T 500 700 T 600 700 T 700 700 T 800 700 T 900 700 T 1000 700 T 1100 700" 
+          fill="none" stroke="#0a84ff" stroke-width="2">
+      <animate attributeName="d" 
+               values="M 100 700 Q 150 650 200 700 T 300 700 T 400 700 T 500 700 T 600 700 T 700 700 T 800 700 T 900 700 T 1000 700 T 1100 700;
+                       M 100 700 Q 150 750 200 700 T 300 700 T 400 700 T 500 700 T 600 700 T 700 700 T 800 700 T 900 700 T 1000 700 T 1100 700;
+                       M 100 700 Q 150 650 200 700 T 300 700 T 400 700 T 500 700 T 600 700 T 700 700 T 800 700 T 900 700 T 1000 700 T 1100 700" 
+               dur="5s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#64d2ff" opacity="0.2">
+      <rect x="900" y="100" width="10" height="40"><animate attributeName="height" values="40;80;40" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="100;60;100" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="920" y="80" width="10" height="60"><animate attributeName="height" values="60;30;60" dur="2.5s" repeatCount="indefinite"/><animate attributeName="y" values="80;110;80" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="940" y="50" width="10" height="90"><animate attributeName="height" values="90;120;90" dur="4s" repeatCount="indefinite"/><animate attributeName="y" values="50;20;50" dur="4s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- Text Labels -->
+  <g font-family="monospace" font-size="14" fill="#ffffff" opacity="0.9" font-weight="bold">
+    <text x="160" y="160">RAW_DATA</text>
+    <text x="160" y="360">SENSORS</text>
+    <text x="160" y="560">APIs</text>
+    <text x="350" y="110">FEATURE_EXT</text>
+    <text x="550" y="310" fill="#64d2ff" font-size="18">DEEP_LEARNING</text>
+    <text x="960" y="250" fill="#64d2ff">INSIGHTS</text>
+    <text x="960" y="450" fill="#64d2ff">PREDICTIONS</text>
+  </g>
+
+  <!-- Binary Rain -->
+  <g font-family="monospace" font-size="10" fill="#64d2ff" opacity="0.2">
+    <text x="50" y="50"><animate attributeName="y" values="-20;820" dur="15s" repeatCount="indefinite"/>10110</text>
+    <text x="150" y="150"><animate attributeName="y" values="-20;820" dur="20s" repeatCount="indefinite"/>01001</text>
+    <text x="250" y="250"><animate attributeName="y" values="-20;820" dur="12s" repeatCount="indefinite"/>11011</text>
+    <text x="650" y="450"><animate attributeName="y" values="-20;820" dur="22s" repeatCount="indefinite"/>11000</text>
+    <text x="950" y="150"><animate attributeName="y" values="-20;820" dur="24s" repeatCount="indefinite"/>01101</text>
+  </g>
+</svg>
