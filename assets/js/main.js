@@ -289,7 +289,7 @@ $("#submit-form").submit((e)=>{
           
 
     $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbxqoPNGZ6p877I7R14zBFK4x5XR3W41rfwkRxbn2u7iCskgFBF6fp2ZMmDwm2q2kGILfA/exec",
+        url:"/api/contact",
         data:$("#submit-form").serialize(),
         method:"post",
         success:function (response){
