@@ -289,7 +289,7 @@ $("#submit-form").submit((e)=>{
           
 
     $.ajax({
-        url:"/api/contact",
+        url:(window.CONTACT_API_URL || "") + "/api/contact",
         data:$("#submit-form").serialize(),
         method:"post",
         success:function (response){

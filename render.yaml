@@ -1,0 +1,42 @@
+# Render Blueprint Specification
+# Reference: https://render.com/docs/blueprints
+
+services:
+  # Option A: Single Web Service (serving both frontend and backend)
+  # This is the easiest to set up, requires no CORS configuration, and is recommended.
+  - type: web
+    name: resume-fullstack
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+
+  # Option B: (Alternative) Split Frontend & Backend
+  # To use this option, uncomment the definitions below.
+  # Note: If splitting, you must set window.CONTACT_API_URL in index.html to your Backend Web Service URL.
+
+  # Option B - Frontend (Static Site)
+  # - type: web
+  #   name: resume-frontend
+  #   runtime: static
+  #   staticPublishPath: ./
+  #   routes:
+  #     - type: rewrite
+  #       source: /*
+  #       destination: /index.html
+
+  # Option B - Backend (API Web Service)
+  # - type: web
+  #   name: resume-backend-api
+  #   runtime: node
+  #   buildCommand: npm install
+  #   startCommand: npm start
+  #   envVars:
+  #     - key: PORT
+  #       value: 10000
+  #     - key: NODE_ENV
+  #       value: production
