@@ -11,8 +11,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #c8d8f0;
-  background: url("../img/bg-pattern.svg") fixed center center;
-  background-size: cover;
   background-color: #05070a;
 }
 
