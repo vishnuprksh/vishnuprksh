@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>{{TITLE}} | Vishnu Prakash</title>
+  <meta content="{{DESCRIPTION}}" name="description">
+  <meta content="{{KEYWORDS}}" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/letter.jpg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    .blog-post {
+      padding: 60px 0;
+    }
+    
+    .blog-post-header {
+      background: linear-gradient(135deg, #222222 0%, #555555 100%);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    
+    .blog-post-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    
+    .blog-post-meta {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-bottom: 0;
+    }
+    
+    .blog-content {
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+    
+    .blog-content h2 {
+      color: #333333;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    
+    .blog-content h3 {
+      color: #333;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    
+    .blog-content p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    
+    .blog-content code {
+      background: #f8f9fa;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #333333;
+      font-family: 'Fira Code', Consolas, Monaco, monospace;
+      font-size: 0.9em;
+    }
+    
+    .blog-content pre {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 20px 0;
+      border-left: 4px solid #00BFFF;
+    }
+    
+    .blog-content pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+      font-size: 0.9em;
+    }
+    
+    .blog-content blockquote {
+      margin: 30px 0;
+      padding: 15px 20px;
+      background-color: #f8f9fa;
+      border-left: 5px solid #ccc;
+      font-style: italic;
+    }
+    
+    .blog-nav {
+      background: white;
+      padding: 15px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .blog-nav a {
+      color: #333333;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    
+    .blog-nav a:hover {
+      color: #555555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Navigation ======= -->
+  <nav class="blog-nav">
+    <div class="container">
+      <a href="../index.html">
+        <i class="bx bx-home"></i> Back to Portfolio
+      </a>
+      <span class="mx-3">|</span>
+      <a href="../blog.html">
+        <i class="bx bx-book"></i> All Blog Posts
+      </a>
+    </div>
+  </nav>
+
+  <!-- ======= Hero Section ======= -->
+  <section class="blog-post-header">
+    <div class="container">
+      <h1>{{TITLE}}</h1>
+      <p class="blog-post-meta">
+        <i class="bx bx-calendar"></i> {{DATE}} &nbsp;|&nbsp; 
+        <i class="bx bx-tag"></i> {{CATEGORY}} &nbsp;|&nbsp; 
+        <i class="bx bx-time"></i> {{READ_TIME}}
+      </p>
+    </div>
+  </section>
+
+  <!-- ======= Blog Content ======= -->
+  <section class="blog-post">
+    <div class="container">
+      <div class="blog-content">
+        
+        {{CONTENT}}
+
+        <hr class="my-5">
+
+        <div class="text-center">
+          <h4>What's your take on this?</h4>
+          <p>I'd love to hear your thoughts or questions. Connect with me on LinkedIn or send me an email!</p>
+          
+          <div class="mt-4">
+            <a href="https://www.linkedin.com/in/vishnu-prksh/" class="btn btn-outline-success me-3">
+              <i class="bx bxl-linkedin"></i> Connect on LinkedIn
+            </a>
+            <a href="mailto:vishnucheppanam@gmail.com" class="btn btn-outline-success">
+              <i class="bx bx-envelope"></i> Send Email
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Related Posts ======= -->
+  <section class="related-posts" style="background: #f8f9fa; padding: 60px 0;">
+    <div class="container">
+      <h3 class="text-center mb-5">Other interesting articles</h3>
+      <div class="row">
+        <!-- RELATED_POSTS_LIST -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="background: #333; color: white; padding: 40px 0;">
+    <div class="container">
+      <div class="text-center">
+        <div class="social-links mb-3">
+          <a href="" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/vishnuprksh" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/vishnu-prksh" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>Vishnu Prakash</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

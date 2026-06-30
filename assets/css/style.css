@@ -1247,6 +1247,34 @@ section {
   text-align: center;
 }
 
+.blog .blog-entry-img.kalman-bg {
+  background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC);
+}
+
+.blog .blog-entry-img.ilp-bg {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.blog .blog-entry-img.fpl-bg {
+  background: linear-gradient(135deg, #028090, #007f5f);
+}
+
+.blog .blog-entry-img.dl-bg {
+  background: linear-gradient(135deg, #8A2387, #E94057, #F27121);
+}
+
+.blog .blog-entry-img.opt-bg {
+  background: linear-gradient(135deg, #ed213a, #93291e);
+}
+
+.blog .blog-entry-img.rbf-bg {
+  background: linear-gradient(135deg, #7F00FF, #E100FF);
+}
+
+.blog .blog-entry-img.ml-bg {
+  background: linear-gradient(135deg, #3a7bd5, #3a6073);
+}
+
 .blog .mcp-bg .blog-image-placeholder i {
   font-size: 48px;
   margin-bottom: 10px;
