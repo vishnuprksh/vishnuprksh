@@ -18,11 +18,3 @@
   <h3><em>"The best way to predict the future is to invent it."</em></h3>
   <p>— Alan Kay</p>
 </div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=vishnuprksh&color=brightgreen&style=flat-square)
-
-*Last updated: July 2025*
-
-</div>
