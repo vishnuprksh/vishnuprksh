@@ -3,7 +3,7 @@ const cors = require('cors');
 const axios = require('axios');
 const path = require('path');
 const fs = require('fs');
-const { marked } = require('marked');
+const md = require("markdown-it")({html:1,linkify:1});
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -132,7 +132,7 @@ app.get('/blog/:slug', (req, res, next) => {
       const readTime = attributes.read_time || '5 min read';
       const description = attributes.description || '';
       const keywords = attributes.keywords || 'blog, article';
-      const htmlContent = marked(body);
+      const htmlContent = md.render(body);
       
       let template = fs.readFileSync(templatePath, 'utf-8');
       
