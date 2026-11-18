@@ -2,7 +2,7 @@
 title: "Sometimes Optimization Is All You Need"
 date: "June 05, 2026"
 category: "Engineering"
-description: "Why we should stop throwing complex machine learning models at scheduling, routing, and resource allocation problems, and start using classical optimization."
+description: "Scheduling, routing and resource allocation problems often don't need machine learning. Classical optimization is enough."
 image: "opt-bg"
 icon: "bx-target-lock"
 read_time: "5 min read"
