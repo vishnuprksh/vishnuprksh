@@ -2,7 +2,7 @@
 title: "Kalman Filter: Simple but Powerful"
 date: "June 25, 2026"
 category: "Mathematics"
-description: "A friendly, intuitive explanation of Kalman Filters. No heavy measure theory, just state estimates and noise."
+description: "Kalman filters without heavy measure theory: state estimates, noise and the intuition behind them."
 image: "kalman-bg"
 icon: "bx-compass"
 read_time: "6 min read"

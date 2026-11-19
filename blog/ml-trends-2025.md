@@ -2,7 +2,7 @@
 title: "Top Machine Learning Trends to Watch in 2025"
 date: "July 10, 2025"
 category: "Machine Learning"
-description: "Exploring the latest developments in ML, from transformer architectures to edge AI deployment."
+description: "A look at the ML developments of 2025, from transformer architectures to edge AI deployment."
 image: "ml-bg"
 icon: "bx-trending-up"
 read_time: "8 min read"

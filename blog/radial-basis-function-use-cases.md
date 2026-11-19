@@ -2,7 +2,7 @@
 title: "Radial Basis Functions: Concepts and Use Cases"
 date: "June 01, 2026"
 category: "Data Science"
-description: "Demystifying Radial Basis Functions (RBF). Learn how they measure distance-based similarity and their key applications in SVMs, interpolation, and ML."
+description: "What radial basis functions are, how they measure similarity, and where they're used: SVMs, interpolation and ML."
 image: "rbf-bg"
 icon: "bx-shape-polygon"
 read_time: "6 min read"

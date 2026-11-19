@@ -2,7 +2,7 @@
 title: "How I Won My FPL League Knowing Only Haaland"
 date: "June 15, 2026"
 category: "Data Science"
-description: "How I leveraged integer optimization, knapsack algorithms, and historical data to beat my football-obsessed friends in Fantasy Premier League — with zero actual football knowledge."
+description: "I don't watch football, but I won my office FPL league by treating it as a constrained optimization problem and writing a solver."
 image: "fpl-bg"
 icon: "bx-trophy"
 read_time: "7 min read"
